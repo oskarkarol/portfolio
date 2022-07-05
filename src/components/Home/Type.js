@@ -6,10 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "📧 kontakt@oskarkarol.de",
-          "🐧 LAMP Stack Developer",
-          "ASP.NET Developer",
-          "🐧 Open Source Contributor",
+          "kontakt@oskarkarol.de",
+          "LAMP Stack Developer",
+          "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
