@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiCsharp,
-  SiPostgresql,
+  SiJavascript,
+  SiReact,
   SiPhp,
-  SiPython,
-  SiGit,
+  SiLaravel,
+  SiPostgresql,
 } from "react-icons/si";
 
 function Techstack() {
@@ -13,7 +13,11 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiCsharp />
+        <SiJavascript />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -21,15 +25,11 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGit />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPython />
       </Col>
     </Row>
   );

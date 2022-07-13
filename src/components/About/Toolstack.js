@@ -2,10 +2,10 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
+  SiDocker,
   SiVisualstudiocode,
   SiPostman,
-  SiVultr,
-  SiDocker,
+  SiGit,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -29,7 +29,7 @@ function Toolstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiVultr />
+        <SiGit />
       </Col>
     </Row>
   );
