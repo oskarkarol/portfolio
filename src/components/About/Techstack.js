@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiJavascript,
+  SiTypescript,
   SiReact,
   SiPhp,
   SiLaravel,
@@ -13,7 +13,7 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiJavascript />
+        <SiTypescript />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
